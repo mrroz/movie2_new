@@ -5,6 +5,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:movie2/controllers/actorsController.dart';
 
 class TrendingTitel extends StatelessWidget {
   TrendingTitel({Key? key}) : super(key: key);
@@ -28,7 +29,6 @@ class TrendingTitel extends StatelessWidget {
               padding:  EdgeInsets.only(right: wi*.04,left: wi*.04),
               child: Center(child:  Text('view all',style: TextStyle(fontSize: wi*.05,fontWeight: FontWeight.bold,color: Colors.orange),)),
             ),
-
 
           ],),
       ),
